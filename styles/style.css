@@ -27,8 +27,6 @@
 }
 
 .header__links-list-item_no-bullit {
-  font-weight: 400;
-  font-size: 18px;
   list-style: none;
 }
 
@@ -108,20 +106,14 @@
   letter-spacing: normal;
 }
 
-.aligned-text,
-.aligned-text-center,
-.aligned-text-right {
+.aligned-text {
   display: block;
-}
-
-.aligned-text_center,
-.aligned-text_right {
   line-height: 100%;
 }
 
-.aligned-text {
-  line-height: 115%;
+.aligned-text_left {
   text-align: left;
+  line-height: 115%;
 }
 
 .aligned-text_center {
@@ -184,7 +176,6 @@
   flex-wrap: wrap;
   gap: 25px;
   width: 1052px;
-  min-height: 563px;
   margin-bottom: 30px;
   list-style: none;
 }
@@ -218,11 +209,6 @@
   height: 100%;
   padding: 50px 40px;
   color: #fff;
-}
-
-.card_type_film,
-.card_type_book,
-.card_type_picture {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
